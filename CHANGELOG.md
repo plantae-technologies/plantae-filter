@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.7](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.6...v0.3.7) (2026-07-01)
+
+
+### Bug Fixes
+
+* correct GitHub org name in package.json URLs ([cd67065](https://github.com/plantae-technologies/plantae-filter/commit/cd6706543bd66df5e740d164dc69f9f673a27fa8))
+* correct GitHub org name in package.json URLs ([b00b863](https://github.com/plantae-technologies/plantae-filter/commit/b00b86337d48ae1b1846abe0965095538d281ebd))
+
 ## [0.3.6](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.5...v0.3.6) (2026-07-01)
 
 
