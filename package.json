@@ -41,11 +41,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/plantae-tecnologies/plantae-filter"
+        "url": "https://github.com/plantae-technologies/plantae-filter"
     },
-    "homepage": "https://plantae-tecnologies.github.io/plantae-filter/",
+    "homepage": "https://plantae-technologies.github.io/plantae-filter/",
     "bugs": {
-        "url": "https://github.com/plantae-tecnologies/plantae-filter/issues"
+        "url": "https://github.com/plantae-technologies/plantae-filter/issues"
     },
     "devDependencies": {
         "@testing-library/dom": "^10.4.0",
