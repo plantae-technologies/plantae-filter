@@ -7,6 +7,12 @@ on:
   repository_dispatch:
     types: [trigger-publish]
 
+# Required for OIDC Trusted Publishing (no long-lived NPM_TOKEN needed).
+# Also enables automatic npm provenance attestation.
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -17,13 +23,17 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           registry-url: 'https://registry.npmjs.org/'
+
+      # Trusted Publishing (OIDC) requires npm >= 11.5.1, newer than the
+      # version bundled with Node 22.
+      - run: npm install -g npm@latest
 
       - run: npm ci
 
       - run: npm run build
 
+      # No NODE_AUTH_TOKEN: authentication is handled via OIDC once the
+      # package's Trusted Publisher is configured on npmjs.com.
       - run: npm publish --access public --tag latest
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
