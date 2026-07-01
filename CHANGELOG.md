@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.4...v0.3.5) (2026-07-01)
+
+
+### Bug Fixes
+
+* **deps:** resolve all Dependabot security alerts ([57f3d6f](https://github.com/plantae-technologies/plantae-filter/commit/57f3d6f0864832be4f8f69bb28632624753d4c9d))
+* **deps:** resolve Dependabot security alerts in dev toolchain ([0360a00](https://github.com/plantae-technologies/plantae-filter/commit/0360a003c8a4a6df132d84d9f3a48777c74db8ca))
+
 ## [0.3.4](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.3...v0.3.4) (2026-03-18)
 
 
