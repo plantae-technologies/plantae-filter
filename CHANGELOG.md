@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.6](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.5...v0.3.6) (2026-07-01)
+
+
+### Continuous Integration
+
+* migrate npm publish to OIDC trusted publishing and bump Node to 22 ([fa88695](https://github.com/plantae-technologies/plantae-filter/commit/fa88695016bc2813391886f211b5ff01b995fec7))
+
 ## [0.3.5](https://github.com/plantae-technologies/plantae-filter/compare/v0.3.4...v0.3.5) (2026-07-01)
 
 
